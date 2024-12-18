@@ -1,0 +1,11 @@
+export PAGER=less
+export MANWIDTH=80
+MANPAGER="less -FiRswX"
+export LESS='-F -g -i -M -R -S -w -X -z-4'
+export VISUAL="emacsclient -c -a emacs"
+export DUNST_SIZE='250x20-30+30'
+export MAKEFLAGS="-j9 -l8"
+
+# disable core dumps
+ulimit -S -c 0
+
